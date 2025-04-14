@@ -33,7 +33,13 @@ int main(){
     float pibpcap2;             // Abreviei pib per capita para nao ficar tao grande nas variaveis!  
 
 
-    // Adicionar as informacoes da cidade 01
+    // Explicacao para o usuario + adicionar as informacoes da cidade 01
+
+    printf("Desafio Super Trunfo! :)\n");
+    printf("\n");
+    printf("Insira as informacoes da sua primeira carta");
+    printf("\n"); 
+
 
     printf("Digite o nome do estado: \n");
     scanf(" %[^\n]", estado);
@@ -82,10 +88,15 @@ int main(){
     printf("Pontos Turisticos: %d\n", turisticos);
     printf("Densidade Populacional: %.3f hab/km²\n", densidade);
     printf("PIB per capita: %.3f reais\n", pibpcap);
+    printf("\n");
     printf("Carta 01 cadastrada!\n");
+    printf("\n");
 
     
     // Adicionar as informacoes da cidade 02
+
+    printf("Insira as informacoes da sua segunda carta");
+    printf("\n");
 
     printf("Digite o nome do segundo estado: \n");
     scanf(" %[^\n]", estado2);
@@ -124,6 +135,8 @@ int main(){
 
     // Respostas cidade 02 
 
+
+    
     printf("Estado: %s\n", estado2);
     printf("Codigo: %s\n", codigo2);
     printf("Cidade: %s\n", nomecidade2);
@@ -133,7 +146,11 @@ int main(){
     printf("Pontos Turisticos: %d\n", turisticos2);
     printf("Densidade Populacional: %.3f hab/km²\n", densidade2);
     printf("PIB per capita: %.3f reais\n", pibpcap2);
+    printf("\n");
     printf("Carta 02 cadastrada!\n");
+    printf("\n");
+
+    
     
 
     // Observação pro professor: tentei usar o %s igual é mostrado no videoaula "Hora de codar" mas obtive erros na hora de compilar, as respostas eram puladas e não perguntadas, então optei pelo uso de " %[^\n]"
