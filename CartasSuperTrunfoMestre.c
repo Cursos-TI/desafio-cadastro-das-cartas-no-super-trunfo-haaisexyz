@@ -156,12 +156,22 @@ int main(){
     printf("\n");
 
 
-    // Comparacao, Super Poder
-
+    // Super poder, comparacao
+    // Utilizei "C(nome da variavel)" para indicar comparação e ficar mais abreviado
+    
+   
     int vencedor;
     int inverso;
     float superpoder;
     float superpoder2;
+    int cpopulacao = populacao > populacao2;
+    int carea = area > area2;
+    int cpib = pib > pib2;
+    int cturisticos = turisticos > turisticos2;
+    int cdensidade = densidade < densidade2;
+    int cpibpcap = pibpcap > pibpcap2;
+    
+
 
     superpoder = populacao + area + pib + turisticos + pibpcap;
     superpoder2 = populacao2 + area2 + pib2 + turisticos2 + pibpcap2;
@@ -171,9 +181,22 @@ int main(){
 
     // Exibindo resultados das comparacoes
 
-    printf("Vencedor geral: \n%d", vencedor);
+    printf("Maior populacao: Carta %d\n", cpopulacao);
     printf("\n");
-    printf("Melhor densidade: \n%d", inverso);
+    printf("Maior area: Carta %d\n", carea);
+    printf("\n");
+    printf("Maior PIB: Carta %d\n", cpib);
+    printf("\n");
+    printf("Mais pontos turisticos: Carta %d\n", cturisticos);
+    printf("\n");
+    printf("Melhor densidade populacional: Carta %d\n", inverso);
+    printf("\n");
+    printf("Maior pib per capita: Carta %d\n", cpibpcap);
+    printf("\n");
+    printf("Super Poder: Carta %d\n", vencedor);
+    printf("\n");
+    
+    
 
 
 
