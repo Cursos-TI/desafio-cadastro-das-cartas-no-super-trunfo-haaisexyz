@@ -73,6 +73,9 @@ int main(){
     printf("Area: %f\n", area);
     printf("PIB: %f\n", pib);
     printf("Pontos Turisticos: %d\n", turisticos);
+    printf("\n");
+    printf("Carta 01 cadastrada!\n");
+    printf("\n");
 
     
     // Adicionar as informacoes da cidade 02
@@ -119,6 +122,9 @@ int main(){
     printf("Area: %f\n", area2);
     printf("PIB: %f\n", pib2);
     printf("Pontos Turisticos: %d\n", turisticos2);
+    printf("\n");
+    printf("Carta 02 cadastrada!\n");
+    printf("\n");
 
     // Observação pro professor: tentei usar o %s igual é mostrado no videoaula "Hora de codar" mas obtive erros na hora de compilar, as respostas eram puladas e não perguntadas, então optei pelo uso de " %[^\n]"
 
