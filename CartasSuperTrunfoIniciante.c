@@ -31,6 +31,12 @@ int main(){
 
     // Adicionar as informacoes da cidade 01
 
+    printf("Desafio Super Trunfo! :)\n");
+    printf("\n");
+    printf("Insira as informacoes da sua primeira carta");
+    printf("\n");
+
+    
     printf("Digite o nome do estado: \n");
     scanf(" %[^\n]", estado);
 
@@ -71,6 +77,12 @@ int main(){
     
     // Adicionar as informacoes da cidade 02
 
+    
+    printf("\n");
+    printf("Insira as informacoes da sua segunda carta");
+    printf("\n");
+
+    
     printf("Digite o nome do segundo estado: \n");
     scanf(" %[^\n]", estado2);
 
